@@ -12,6 +12,5 @@ def fact():
             i += 1
         print "%d" % f
 
-
 if __name__ == "__main__":
     fact()
