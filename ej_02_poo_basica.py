@@ -26,7 +26,7 @@ class Vector:
 
 
 def main():
-    v = Vector("1,2,2")
+    v = Vector("1,2,2,12,5,10")
     print "vector [%s]" % (", ".join([str(x) for x in v.v]))
     print "norma euclidea %4.2f" % v.n_euclid()
     print "norma del supremo %4.2f" % v.n_sup()
