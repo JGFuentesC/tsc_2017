@@ -1,4 +1,4 @@
 .idea/
 *.pyc
 clean-data/
-
+.ipynb_checkpoints/
