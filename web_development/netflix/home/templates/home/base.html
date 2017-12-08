@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<html lang="es">
+    <head>
+        <title> Netflix México: Ve programas online, ve películas online </title>
+        <link rel="shortcut icon" href= "{% static '/favicon/favicon.ico' %}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href="{% static 'css/bootstrap.min.css'%}" type='text/css' />
+        <link rel='stylesheet' href="{% static 'css/custom.css'%}" type='text/css' />
+    </head>
+    <body style= "background-image: url({% static ''|add:ruta|add:'/img/fondo.jpg' %}), linear-gradient(to bottom right,#002f4b,#dc4225);">
+        <header>
+            <a href="https://www.netflix.com/mx/">
+                <img src="{% static 'home/img/Netflix_logo.svg'%}" alt="netflix_logo" title="Netflix" id="netflix-logo">
+            </a>
+            {% if boton_login %}
+                 {% include 'home/includes/boton-login.html' %}
+            {% endif %}
+        </header>
+        
+        {% block content %}
+            
+        {% endblock content %}
+            
+    </body>
+</html>

@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	../netflix/netflix/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../netflix/netflix/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+BASE_DIR	../netflix/netflix/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../netflix/netflix/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	../netflix/netflix/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HomeConfig	../netflix/home/apps.py	/^class HomeConfig(AppConfig):$/;"	kind:class	line:7
+INSTALLED_APPS	../netflix/netflix/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../netflix/netflix/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+MIDDLEWARE	../netflix/netflix/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+ROOT_URLCONF	../netflix/netflix/settings.py	/^ROOT_URLCONF = 'netflix.urls'$/;"	kind:variable	line:52
+SECRET_KEY	../netflix/netflix/settings.py	/^SECRET_KEY = '6zm-4h%-33_(7nqjq$=frl!uru!p!amwsmo5i^n-!$_+d$heel'$/;"	kind:variable	line:23
+STATIC_URL	../netflix/netflix/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+TEMPLATES	../netflix/netflix/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TIME_ZONE	../netflix/netflix/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+USE_I18N	../netflix/netflix/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_L10N	../netflix/netflix/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_TZ	../netflix/netflix/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+WSGI_APPLICATION	../netflix/netflix/settings.py	/^WSGI_APPLICATION = 'netflix.wsgi.application'$/;"	kind:variable	line:70
+__init__.py	../netflix/home/__init__.py	1;"	kind:file	line:1
+__init__.py	../netflix/home/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../netflix/netflix/__init__.py	1;"	kind:file	line:1
+admin.py	../netflix/home/admin.py	1;"	kind:file	line:1
+application	../netflix/netflix/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../netflix/home/apps.py	1;"	kind:file	line:1
+manage.py	../netflix/manage.py	1;"	kind:file	line:1
+models.py	../netflix/home/models.py	1;"	kind:file	line:1
+name	../netflix/home/apps.py	/^    name = 'home'$/;"	kind:variable	line:8
+settings.py	../netflix/netflix/settings.py	1;"	kind:file	line:1
+tests.py	../netflix/home/tests.py	1;"	kind:file	line:1
+urlpatterns	../netflix/netflix/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../netflix/netflix/urls.py	1;"	kind:file	line:1
+views.py	../netflix/home/views.py	1;"	kind:file	line:1
+wsgi.py	../netflix/netflix/wsgi.py	1;"	kind:file	line:1

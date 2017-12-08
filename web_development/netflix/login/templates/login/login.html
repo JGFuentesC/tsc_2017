@@ -1,0 +1,22 @@
+{% extends 'home/base.html' %}
+
+
+{% block content %}
+    <div class = "container-fluid">
+        <div id="login" class = "col-xl-5 offset-xl-3 col-lg-5 offset-lg-4 col-md-3 offset-md-4 col-sm-12 col-xs-12">
+            <h1 id = "titulo-form" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1"> Inicia Sesión </h1>
+            <form>
+                <label for="email" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1" style="margin-bottom-0px;"> Email </label>
+                <input type="input" name="email" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1">
+                <br><br>
+                <label for="password" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1" style="margin-bottom-0px;"> Contraseña </label>
+                <input type="password" name="password" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1">
+                <br><br>
+                <a href="#" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1">¿Olvidaste tu email o contraseña?</a>
+                <br><br>
+                <input type="submit" name="iniciar-sesion" value="Iniciar Sesion" id="iniciar-sesion" class = "col-xl-10 col-lg-10 col-md-10 col-sm-10 col-xs-10 offset-xl-1 offset-lg-1 offset-md-1 offset-sm-1 offset-xs-1">
+            </form>
+        </div>
+    </div>
+{% endblock content %}
+    
